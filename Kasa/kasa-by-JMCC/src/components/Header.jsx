@@ -1,8 +1,8 @@
 import { Link } from 'react-router-dom'
 
-import './index.css'
+import '../index.css'
 
-import logo from './assets/logo.png'
+import logo from '../assets/logo.png'
 
 export default function Header() {
   return (
@@ -12,7 +12,7 @@ export default function Header() {
         </div>
         <div className="nav">
           <Link to="/">Accueil</Link>
-          <Link to="about/">A Propos</Link>
+          <Link to="/about/">A Propos</Link>
         </div>
     </>)
 }

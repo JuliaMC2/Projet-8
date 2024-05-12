@@ -72,6 +72,7 @@ body {
   width:  100%;
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 
 /* 2.1-TITLE */
@@ -87,7 +88,7 @@ body {
   box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.25);
 }
 
-.backgroundHome {
+.backgroundPicture {
   width: 100%;
   height: 223px;
   border-radius: 25px;
@@ -224,4 +225,58 @@ body {
   background-color: white;
   margin-top: 80px;
   margin-bottom: 50px;
+}
+
+/* 5-ABOUT */
+.aboutCollapses {
+  width: 71%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 35px;
+}
+
+/* 6-COLLAPSE */
+.collapse {
+  margin-bottom: 25px; 
+}
+
+.collapseTitleBar {
+  width: 100%;
+  height: 52px;
+  background-color: #FF6060;
+  padding: 0px 20px 0px 15px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.collapseTile {
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 34px;
+  text-align: left;
+  cursor: pointer;
+  margin-top: 5px;
+}
+
+.collapseArrow {
+  width: 32px;
+  object-fit: contain;
+  cursor: pointer;
+}
+
+.collapseContent {
+  width: 100%;
+  border-radius: 10px 10px 5px 5px;
+  background-color: #F6F6F6;
+  color: black;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: left;
+  padding: 15px 20px 15px 20px;
 }

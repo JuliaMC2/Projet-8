@@ -1,8 +1,8 @@
-import Header from './ComponentHeader.jsx'
-import Footer from './ComponentFooter.jsx'
+import Header from '../components/Header.jsx'
+import Footer from '../components/Footer.jsx'
 import { Link } from 'react-router-dom'
 
-import './index.css'
+import '../index.css'
 
 export default function Error() {
   return (

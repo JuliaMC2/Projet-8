@@ -4,10 +4,10 @@ import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
-import Home from './PageHome.jsx'
-import Fiche from './PageFiche.jsx'
-import Error_404 from './PageError-404.jsx'
-import About from './PageAbout.jsx'
+import Home from './pages/Home.jsx'
+import Fiche from './pages/Fiche.jsx'
+import Error_404 from './pages/Error-404.jsx'
+import About from './pages/About.jsx'
 
 import './index.css'
 

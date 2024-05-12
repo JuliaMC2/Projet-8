@@ -1,6 +1,6 @@
-import './index.css'
+import '../index.css'
 
-import logo from './assets/logo_about.png'
+import logo from '../assets/logo_about.png'
 
 export default function Footer() {
   return (

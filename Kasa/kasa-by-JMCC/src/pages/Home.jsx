@@ -1,9 +1,9 @@
-import Header from './ComponentHeader.jsx'
-import Footer from './ComponentFooter.jsx'
-import SummariesList from './ComponentSummariesList.jsx'
+import Header from '../components/Header.jsx'
+import Footer from '../components/Footer.jsx'
+import SummariesList from '../components/SummariesList.jsx'
 
-import './index.css'
-import backgroundHome from'./assets/backgroundHome.jpg'
+import '../index.css'
+import backgroundHome from'../assets/backgroundHome.jpg'
 
 
 
@@ -15,7 +15,7 @@ export default function Home() {
         </section>
         <section id="content">
             <div id="title">
-                <img src={backgroundHome} className="backgroundHome"></img>
+                <img src={backgroundHome} className="backgroundPicture"></img>
                 <span className="mainTitle"><div>Chez vous,&nbsp;</div><div>partout et ailleurs</div></span>
             </div>
             <div id="summariesList">

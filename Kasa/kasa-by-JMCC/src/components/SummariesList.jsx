@@ -1,6 +1,6 @@
-import Summary from './ComponentSummary.jsx'
+import Summary from './Summary.jsx'
 
-import jsonFile from './assets/logements.json'
+import jsonFile from '../assets/logements.json'
 
 export default function SummariesList() {
     const summaries = jsonFile.map(Object => <div className="summary" key={Object.id}>
