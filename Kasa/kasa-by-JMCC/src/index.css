@@ -280,3 +280,162 @@ body {
   text-align: left;
   padding: 15px 20px 15px 20px;
 }
+
+/* 7-FICHE */
+
+.carousel {
+  width: 100%;
+  display: flex;
+  margin-top: 40px;
+  margin-bottom: 50px;
+}
+
+.locationContent {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+
+
+.titleAndlocation {
+  min-width: calc(100% - 200px);
+  max-width: 1038px;
+  width: calc(100% - 200px);
+  height: 77px;
+}
+
+.titleAndlocation .detailTitle {
+  text-align: left;
+}
+
+.detailLocation {
+  color: black;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 25.67px;
+  text-align: left;
+}
+
+.hostIdentity {
+  width: 200px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: end;
+}
+
+.hostName {
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 25.67px;
+  text-align: right;
+  color: #FF6060;
+  margin-right: 10px;
+}
+
+.hostPhoto {
+  width: 64px;
+  height: 64px;
+  border-radius: 32px 32px 32px 32px;
+  background-color: #c4c4c4;
+}
+
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  min-width: calc(100% - 200px);
+  max-width: 1038px;
+  width: calc(100% - 200px);
+  height: 25px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.locationTag {
+  width: 115px;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 19.96px;
+  text-align: center;
+  background-color: #FF6060;
+  color: white;
+  border-radius: 10px;
+  margin-right: 25px;
+}
+.evaluation {
+  display:flex;
+  justify-content: end;
+  width: 200px;
+  height: 36px;
+}
+
+.evaluationStar {
+  height: 36px;
+  width: 36px;
+}
+
+.collapses {
+  width: 100%;
+  display:flex;
+  justify-content: left;
+}
+
+.description {
+  width: 45%;
+  min-width: 45%;
+  max-width: 45%;
+}
+
+.equipements {
+  margin-left: 7.5%;
+  width: 45%;
+  min-width: 45%;
+  max-width: 45%;
+}
+
+/* 7.1-CAROUSEL */
+#banner {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	min-height: 470px;
+	position: relative;
+}
+.singlePictureCarousel, .banner_img {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	object-fit:cover;
+	object-position: center;
+}
+
+#banner .arrow {
+	cursor: pointer;
+	position: absolute;
+}
+#banner .arrow_left {
+	left: 20px;
+}
+#banner .arrow_right {
+	right: 20px;
+}
+
+.position {
+	position: absolute;
+	bottom: 40px;
+	display: flex;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 25.67px;
+  text-align: center;
+}
+
+
