@@ -1,5 +1,7 @@
 import { useState } from 'react'
+
 import '../index.css'
+import '../index_mobile.css'
 
 import arrow_left from '../assets/arrow_left.png'
 import arrow_right from '../assets/arrow_right.png'

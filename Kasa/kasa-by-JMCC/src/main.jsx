@@ -10,6 +10,7 @@ import Error_404 from './pages/Error-404.jsx'
 import About from './pages/About.jsx'
 
 import './index.css'
+import './index_mobile.css'
 
 const router = createBrowserRouter([
   {

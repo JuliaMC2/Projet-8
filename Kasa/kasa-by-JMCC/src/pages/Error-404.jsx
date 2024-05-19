@@ -3,6 +3,7 @@ import Footer from '../components/Footer.jsx'
 import { Link } from 'react-router-dom'
 
 import '../index.css'
+import '../index_mobile.css'
 
 export default function Error() {
   return (

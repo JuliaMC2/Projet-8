@@ -1,4 +1,5 @@
 import '../index.css'
+import '../index_mobile.css'
 
 import logo from '../assets/logo_about.png'
 

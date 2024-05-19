@@ -1,4 +1,5 @@
 import '../index.css'
+import '../index_mobile.css'
 
 import star_active from '../assets/star_active.png'
 import star_inactive from '../assets/star_inactive.png'

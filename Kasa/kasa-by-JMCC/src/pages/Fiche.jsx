@@ -9,9 +9,8 @@ import Error_404 from './Error-404.jsx'
 
 import jsonFile from '../assets/logements.json'
 
-
 import '../index.css'
-
+import '../index_mobile.css'
 
 export default function Fiche() {
   const { logementId } = useParams()
@@ -31,7 +30,7 @@ export default function Fiche() {
       <section id="header">
         <Header />
       </section>
-      <section className="content">
+      <section id="content">
         <div className='carousel'>{ logement[0].pictures.length > 1 ?
           <Carousel pictures={logement[0].pictures} /> :
           <div id="banner">
@@ -39,19 +38,25 @@ export default function Fiche() {
           </div>}
         </div>
         <div className="locationContent">
-          <div className="titleAndlocation">
-            <div className="detailTitle">{logement[0].title}</div>
-            <div className="detailLocation">{logement[0].location}</div>
-          </div>
-          <div className="hostDetail">
-            <div className="hostIdentity">
-              <div className="hostName">{hostFirstName}<br />{hostLastName}</div>
-              <img className="hostPhoto" src={logement[0].host.picture}></img>
+          <div className="locationOverview">
+            <div className="locationDetails">
+              <div className="titleAndlocation">
+                <div className="detailTitle">{logement[0].title}</div>
+                <div className="detailLocation">{logement[0].location}</div>
+              </div>
+              <div className="tags">{logement[0].tags.map(tag => (<div className="locationTag" key={tag}>{tag}</div>))}</div>
             </div>
-          </div>
-          <div className="tags">{logement[0].tags.map(tag => (<div className="locationTag" key={tag}>{tag}</div>))}</div>
-          <div className="evaluation">
-            <Evaluation rating={logement[0].rating} />
+            <div className="hostAndEvaluation">
+              <div className="hostDetail">
+                <div className="hostIdentity">
+                  <div className="hostName">{hostFirstName}<br />{hostLastName}</div>
+                  <img className="hostPhoto" src={logement[0].host.picture}></img>
+                </div>
+              </div>
+              <div className="evaluation">
+                <Evaluation rating={logement[0].rating} />
+              </div>
+            </div>
           </div>
           <div className="collapses">
             <div className="description">

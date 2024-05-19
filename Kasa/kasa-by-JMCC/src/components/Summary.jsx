@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom'
 
 import '../index.css'
+import '../index_mobile.css'
 
 export default function Summary(props) {
     const linkToPlace="logement/"+props.id

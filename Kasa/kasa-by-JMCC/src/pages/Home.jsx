@@ -3,9 +3,9 @@ import Footer from '../components/Footer.jsx'
 import SummariesList from '../components/SummariesList.jsx'
 
 import '../index.css'
+import '../index_mobile.css'
+
 import backgroundHome from'../assets/backgroundHome.jpg'
-
-
 
 export default function Home() {
     return (

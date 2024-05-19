@@ -1,6 +1,7 @@
 import { useState } from 'react'
 
 import '../index.css'
+import '../index_mobile.css'
 
 import upwardArrow from'../assets/upward_caret.png'
 import downwardArrow from'../assets/downward_caret.png'
