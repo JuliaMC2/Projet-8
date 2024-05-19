@@ -1,0 +1,268 @@
+@media screen and (max-width: 375px) {
+  #root {
+    max-width: 375px;
+    min-width: 300px;
+  }
+
+  /* 1-HEADER */
+  #header {
+    max-width : 335px;
+    margin-top: 10px;
+    width: 90%;
+  }
+
+  #headerLogo {
+    width: 145px;
+    height: 40px;
+  }
+
+  .nav {
+    max-width: 335px;
+    margin-top: 15px;
+    font-size: 12px;
+    line-height: 17.11px;
+  }
+
+  .nav a {
+    width: 80px;
+    margin-left: 30px;
+  }
+
+  /* 2-CONTENT */
+  #content {
+    max-width : 335px;
+  }
+
+  /* 2.1-TITLE */
+  #title {
+    max-width : 335px;
+    height: 111px;
+    border-radius: 10px;
+  }
+
+  .backgroundPicture {
+    height: 111px;
+    border-radius: 10px;
+  }
+
+  .mainTitle {
+    flex-direction:row;
+    flex-wrap: wrap;
+    bottom: 35px;
+    font-size: 24px;
+    line-height: 24px;
+    text-align: left;
+    height: 48px;
+    justify-content: start;
+    padding-left: 20px;
+  }
+
+  .mainTitle div {
+    height: 24px;
+  }
+
+  /* 2.2-THUMBS LIST */
+  #summariesList {
+    margin-top: 20px;
+    padding: 5px 5px 5px 5px;
+    width: 100%;
+    max-width: 335px;
+    grid-template-columns: 1fr;
+    row-gap: 20px;
+    background-color: white;
+    border-radius: 0px;
+  }
+
+  .thumbCard {
+    width: 335px;
+    height: 255px;
+    margin: 0px 0px 0px 0px;
+  }
+
+  .thumbCover {
+    width: 335px;
+    height: 255px;
+  }
+
+  /* 3-FOOTER */
+  #footer {
+    max-width : 375px;
+    margin-top: 20px;
+  }
+
+  .footerText {
+    font-size: 12px;
+    line-height: 17.11px;
+    text-align: center;
+    width: 32.5%;
+    }
+
+  /* 4-ERROR PAGE */
+  .errorNumber {
+    margin-top: 40px;
+    margin-bottom: 70px;
+    font-size: 96px;
+    line-height: 137px;
+  }
+
+  .detailTitle {
+    font-size: 18px;
+    line-height: 26px;
+    width: 80%;
+  }
+
+  .underlinedLink {
+    font-size: 14px;
+    line-height: 20px;
+    margin-top: 100px;
+    margin-bottom: 90px;
+  }
+
+  /* 5-ABOUT */
+  .aboutCollapses {
+    width: 100%;
+    margin-bottom: -20px;
+  }
+
+  /* 6-COLLAPSE */
+  .collapse {
+    margin-bottom: 20px; 
+  }
+
+  .collapseTitleBar {
+    width: calc(100% - 20px);
+    height: 30px;
+    padding: 0px 10px 0px 10px;
+  }
+
+  .collapseTile {
+    font-size: 13px;
+    line-height: 18.54px;
+  }
+
+  .collapseArrow {
+    width: 16px;
+  }
+
+  .collapseContent {
+    font-size: 12px;
+    line-height: 17px;
+  }
+
+  /* 7-FICHE */
+
+  .carousel {
+    margin-bottom: 10px;
+  }
+  
+  .locationOverview {
+    flex-direction: column;
+  }
+  
+  .locationDetails {
+    min-width: 100%;
+    max-width: 100%;
+    width: 100%;
+  }
+  
+  .titleAndlocation {
+    height: auto;
+  }
+
+  .titleAndlocation .detailTitle {
+    text-align: left;
+  }
+
+  .detailLocation {
+    font-size: 14px;
+    line-height: 19.96px;
+    margin-top: 5px;
+  }
+
+  .hostAndEvaluation{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+
+  .hostIdentity {
+    margin-top: 0px;
+  }
+
+  .hostName {
+    font-size: 12px;
+    line-height: 17.11px;
+  }
+
+  .hostPhoto {
+    width: 32px;
+    height: 32px;
+    border-radius: 16px 16px 16px 16px;
+  }
+
+  .tags {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .locationTag {
+    width: 84px;
+    height: 18px;
+    font-size: 10px;
+    line-height: 14.26px;
+    border-radius: 7px;
+    margin-right: 7px;
+  }
+
+  .evaluation {
+    width: 98px;
+    height: 18px;
+    justify-content: left;
+    margin-top: 0px;
+  }
+
+  .evaluationStar {
+    height: 18px;
+    width: 18px;
+  }
+
+  .collapses {
+    justify-content: left;
+    flex-wrap: wrap;
+    margin-bottom: -10px;
+  }
+
+  .description {
+    width: 100%;
+  }
+
+  .equipements {
+    width: 100%;
+  }
+
+  /* 7.1-CAROUSEL */
+  #banner {
+    min-height: 255px;
+  }
+
+  .singlePictureCarousel, .banner_img {
+    border-radius: 10px;
+  }
+
+  #banner .arrow {
+    height: 24px;
+  }
+  #banner .arrow_left {
+    left: 5px;
+  }
+  #banner .arrow_right {
+    right: 5px;
+  }
+
+  .position {
+    display: none;
+  }
+
+}
