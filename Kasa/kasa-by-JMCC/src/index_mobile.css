@@ -205,10 +205,10 @@
   .tags {
     margin-top: 10px;
     margin-bottom: 10px;
+    row-gap: 10px;
   }
 
   .locationTag {
-    width: 84px;
     height: 18px;
     font-size: 10px;
     line-height: 14.26px;

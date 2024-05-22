@@ -264,7 +264,7 @@ body {
 }
 
 .collapseContent {
-  width: 100%;
+  width: calc(100% - 40px);
   border-radius: 10px 10px 5px 5px;
   background-color: #F6F6F6;
   color: black;
@@ -308,7 +308,6 @@ body {
 
 .titleAndlocation {
   width: 100%;
-  height: 77px;
 }
 
 .titleAndlocation .detailTitle {
@@ -353,13 +352,12 @@ body {
   display: flex;
   flex-wrap: wrap;
   width: 100%;
-  height: 25px;
   margin-top: 20px;
   margin-bottom: 20px;
+  row-gap: 20px;
 }
 
 .locationTag {
-  width: 115px;
   font-family: Montserrat;
   font-size: 14px;
   font-weight: 700;
@@ -370,6 +368,8 @@ body {
   border-radius: 10px;
   margin-right: 25px;
   padding-top: 2px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 .evaluation {
   display:flex;
@@ -414,6 +414,7 @@ body {
 	height: 100%;
 	object-fit:cover;
 	object-position: center;
+  border-radius: 20px;
 }
 
 #banner .arrow {
