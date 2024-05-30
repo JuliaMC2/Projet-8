@@ -137,13 +137,13 @@ body {
   display: block;
   position: relative;
   width: calc(100% - 50px);
-  height: fit-content;
+  height: 100%;
   margin: 25px 25px 25px 25px;
 }
 
 .thumbCover {
   width: 100%;
-  height: fit-content;
+  height: 100%;
   object-fit: cover;
   border-radius: 10px;
 }
@@ -446,5 +446,3 @@ body {
   line-height: 25.67px;
   text-align: center;
 }
-
-
