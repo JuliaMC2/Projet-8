@@ -8,7 +8,7 @@ import arrow_right from '../assets/arrow_right.png'
 
 export default function Carousel(props) {
     const pictures = props.pictures
-    console.log(pictures)
+
     var [index, setIndex] = useState(0)
     if (index == -1)
         index = pictures.length - 1

@@ -16,7 +16,7 @@ export default function Home() {
         <section id="content">
             <div id="title">
                 <img src={backgroundHome} className="backgroundPicture"></img>
-                <span className="mainTitle"><div>Chez vous,&nbsp;</div><div>partout et ailleurs</div></span>
+                <span className="mainTitle"><div id="firstGroup">Chez vous,&nbsp;</div><div id="secondGroup">partout et ailleurs</div></span>
             </div>
             <div id="summariesList">
                 <SummariesList />

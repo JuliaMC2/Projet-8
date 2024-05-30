@@ -9,7 +9,7 @@ import jsonContent from '../assets/about.json'
 import backgroundAbout from'../assets/backgroundAbout.jpg'
 
 export default function About() {
-  const collapses = jsonContent.map (Object => <Collapse title={Object.nom} content={Object.contenu}/>)
+  const collapses = jsonContent.map (Object => <Collapse title={Object.nom} content={Object.contenu} key={Object.nom}/>)
 
   return (
     <>

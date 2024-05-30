@@ -1,12 +1,12 @@
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 768px) {
   #root {
-    max-width: 375px;
+    max-width: 768px;
     min-width: 300px;
   }
 
   /* 1-HEADER */
   #header {
-    max-width : 335px;
+    max-width : 691px;
     margin-top: 10px;
     width: 90%;
   }
@@ -17,7 +17,7 @@
   }
 
   .nav {
-    max-width: 335px;
+    max-width: 691px;
     margin-top: 15px;
     font-size: 12px;
     line-height: 17.11px;
@@ -25,17 +25,18 @@
 
   .nav a {
     width: 80px;
-    margin-left: 30px;
+    margin-left: 20px;
   }
 
   /* 2-CONTENT */
   #content {
-    max-width : 335px;
+    max-width : 691px;
   }
 
   /* 2.1-TITLE */
   #title {
-    max-width : 335px;
+    max-width : 691px;
+    width: 100%;
     height: 111px;
     border-radius: 10px;
   }
@@ -55,18 +56,21 @@
     height: 48px;
     justify-content: start;
     padding-left: 20px;
+    width: fit-content;
   }
 
-  .mainTitle div {
+  #firstGroup, #secondGroup {
     height: 24px;
+    min-width: 0px;
+    width: auto;
   }
 
   /* 2.2-THUMBS LIST */
   #summariesList {
     margin-top: 20px;
-    padding: 5px 5px 5px 5px;
+    padding: 5px 0;
     width: 100%;
-    max-width: 335px;
+    max-width: 691px;
     grid-template-columns: 1fr;
     row-gap: 20px;
     background-color: white;
@@ -74,19 +78,23 @@
   }
 
   .thumbCard {
-    width: 335px;
-    height: 255px;
+    width: 100%;
+    height: auto;
     margin: 0px 0px 0px 0px;
   }
 
   .thumbCover {
-    width: 335px;
-    height: 255px;
+    width: 100%;
+    height: auto;
+  }
+
+  .thumbText {
+    width: fit-content;
   }
 
   /* 3-FOOTER */
   #footer {
-    max-width : 375px;
+    max-width : 768px;
     margin-top: 20px;
   }
 

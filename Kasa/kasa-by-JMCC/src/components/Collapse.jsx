@@ -9,7 +9,7 @@ import downwardArrow from'../assets/downward_caret.png'
 export default function Collapse(props) {
     const [showMe, setShow] = useState(false)
 
-    const formattedContent = props.content.map ((object) => <span className='colllapseContentLine'>{ object }<br/></span>)
+    const formattedContent = props.content.map ((object) => <span className='colllapseContentLine' key={object}>{ object }<br/></span>)
 
     return (
     <>
